@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Is triangle?</a>
+        <a href="/quiz.html">Quiz</a>
+        <a href="./hypo.html">Hypotenuse</a>
+        <a href="./area.html">Area</a>
+    </nav>
+
+    <section class="middle-section">
+        <h1>Check Area Of a Triangle</h1>
+
+        <form class="quizForm">
+            <div>
+                <p>1. The angles opposite to equal sides of a triangle are:</p>
+                <label><input type="radio" value="Equal" name="question1">Equal</label>
+                <label><input type="radio" value="Unequal" name="question1">Unequal</label>
+                <label><input type="radio" value="supplementary angles" name="question1">supplementary angles</label>
+            </div>
+
+            <div>
+                <p>2. If ABC is an equilateral triangle, then each angle equals to:</p>
+                <label><input type="radio" value="90°" name="question2">90°</label>
+                <label><input type="radio" value="180°" name="question2">180°</label>
+                <label><input type="radio" value="60°" name="question2">60°</label>
+            </div>
+
+            <div>
+                <p>3. In a right triangle, the longest side is:</p>
+                <label><input type="radio" value=" Perpendicular" name="question3"> Perpendicular</label>
+                <label><input type="radio" value="Hypotenuse" name="question3">Hypotenuse</label>
+                <label><input type="radio" value="Base" name="question3"> Base</label>
+            </div>
+
+            <div>
+                <p>4. Which of the following is not a criterion for congruence of triangles?</p>
+                <label><input type="radio" value="SAS" name="question4">SAS</label>
+                <label><input type="radio" value="ASA" name="question4">ASA</label>
+                <label><input type="radio" value="SSA" name="question4">SSA</label>
+            </div>
+
+            <div>
+                <p>5. In triangles ABC and PQR, AB = AC, ∠C = ∠P and ∠B = ∠Q. The two triangles are</p>
+                <label><input type="radio" value="Isosceles and congruent" name="question5">Isosceles and
+                    congruent</label>
+                <label><input type="radio" value="Isosceles but not congruent" name="question5">Isosceles but not
+                    congruent</label>
+                <label><input type="radio" value="Congruent but not isosceles" name="question5">Congruent but not
+                    isosceles</label>
+            </div>
+
+            <div>
+                <p>6. Two sides of a triangle are of length 5 cm and 1.5 cm. The length of the third side of the
+                    triangle cannot be:</p>
+                <label><input type="radio" value="6.9 cm" name="question6">6.9 cm</label>
+                <label><input type="radio" value="4.1 cm" name="question6">4.1 cm</label>
+                <label><input type="radio" value="3.8 cm" name="question6">3.8 cm</label>
+            </div>
+
+            <div>
+                <p>7. All the medians of a triangle are equal in case of a:</p>
+                <label><input type="radio" value="Scalene triangle" name="question7">Scalene triangle</label>
+                <label><input type="radio" value="Equilateral triangle" name="question7">Equilateral triangle</label>
+                <label><input type="radio" value="Isosceles triangle" name="question7">Isosceles triangle</label>
+            </div>
+
+            <div>
+                <p>8. In triangle PQR if ∠Q = 90°, then:</p>
+                <label><input type="radio" value="PQ is the longest side" name="question8">PQ is the longest
+                    side</label>
+                <label><input type="radio" value="QR is the longest sides" name="question8">QR is the longest
+                    side</label>
+                <label><input type="radio" value="PR is the longest side" name="question8">PR is the longest
+                    side</label>
+            </div>
+
+            <div>
+                <p>9. If two sides of a triangle are unequal then the angle opposite to longer side is</p>
+                <label><input type="radio" value="Smaller" name="question9">Smaller</label>
+                <label><input type="radio" value="Right angle" name="question9">Right angle</label>
+                <label><input type="radio" value="Larger" name="question9">Larger</label>
+            </div>
+
+            <div>
+                <p>10. A triangle having at least two equal sides</p>
+                <label><input type="radio" value="acute" name="question10">acute triangle</label>
+                <label><input type="radio" value="isosceles" name="question10">isosceles triangle</label>
+                <label><input type="radio" value="equilateral" name="question10">equilateral triangle</label>
+            </div>
+        </form>
+        <div>
+            <button id="checkBtn">Submit !</button>
+        </div>
+
+        <div id="outputBox">
+
+        </div>
+    </section>
+
+</body>
+<script src="./quiz.js"></script>
+
+</html>

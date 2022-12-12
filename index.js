@@ -1,11 +1,9 @@
-var angleOne = document.querySelector("#angleOneInput")
-var angleTwo = document.querySelector("#angleTwoInput")
-var angleThree = document.querySelector("#angleThreeInput")
+var angleVal = document.querySelectorAll("#angleOneInput")
 var output = document.querySelector("#outputBox")
 var button = document.querySelector("#checkBtn")
 
 function clickHandle() {
-    let sum = (Number(angleOne.value) + Number(angleTwo.value) + Number(angleThree.value))
+    let sum = (Number(angleVal[0].value) + Number(angleVal[1].value) + Number(angleVal[2].value))
 console.log(sum)
 
     if (sum === 180) {

@@ -7,6 +7,9 @@
   text-align: center;
 }
 
+body{
+    background-color: #E5B8F4;
+}
 .navbar {
   display: flex;
   justify-content: flex-start;
@@ -29,10 +32,10 @@
   justify-content: flex-start;
   height: 90vh;
   gap: 40px;
-  background-color: #E5B8F4;
+  
 }
 
-input{
+#inputVal{
     width: 300px;
     height: 40px;
     border: 3px solid #A555EC;
@@ -52,15 +55,12 @@ font-size: 25px;
 
 @media only screen and (max-width: 1024px) {
     .middle-section {
-        height: 110vh;
         gap: 35px;
       }
 }
 
 @media only screen and (max-width: 425px) {
-    .middle-section {
-        height: 110vh;
-      }
+
 
       .navbar{
         justify-content: center;
