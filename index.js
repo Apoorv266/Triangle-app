@@ -1,4 +1,4 @@
-var angleVal = document.querySelectorAll("#angleOneInput")
+var angleVal = document.querySelectorAll("#inputVal")
 var output = document.querySelector("#outputBox")
 var button = document.querySelector("#checkBtn")
 
