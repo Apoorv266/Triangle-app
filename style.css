@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Unbounded', cursive;
+  text-align: center;
 }
 
 .navbar {
@@ -40,11 +41,36 @@ input{
 
 #checkBtn{
     height: 40px;
-    width: 100px;
+    width: 130px;
     border: 3px solid #A555EC;
     border-radius: 10px;
 }
 
 #outputBox{
-font-size: 30px;
+font-size: 25px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .middle-section {
+        height: 110vh;
+        gap: 35px;
+      }
+}
+
+@media only screen and (max-width: 425px) {
+    .middle-section {
+        height: 110vh;
+      }
+
+      .navbar{
+        justify-content: center;
+        gap: 25px;
+      }
+
+
+      .navbar a {
+        font-size: 0.7rem;
+        margin-left: 0;
+      }
+}
+
