@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
 }
 
 .navbar {
@@ -26,17 +28,21 @@
   justify-content: flex-start;
   height: 90vh;
   gap: 40px;
-  margin-top: 20px;
+  background-color: #E5B8F4;
 }
 
 input{
     width: 300px;
     height: 40px;
+    border: 3px solid #A555EC;
+    border-radius: 10px;
 }
 
 #checkBtn{
     height: 40px;
     width: 100px;
+    border: 3px solid #A555EC;
+    border-radius: 10px;
 }
 
 #outputBox{
